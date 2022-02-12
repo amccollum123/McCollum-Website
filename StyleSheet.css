@@ -67,7 +67,7 @@ aside h3{
 @media (max-width:767px){
   aside{
     width: 100%;
-    float: note
+    float: none;
     display: block;
     margin: 0;
     }
