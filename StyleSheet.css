@@ -64,15 +64,6 @@ aside h3{
   font-size: 1rem;
 }
 
-@media (max-width:767px){
-  aside{
-    width: 100%;
-    float: none;
-    display: block;
-    margin: 0;
-    }
-}
-
 @media (prefers-color-scheme: dark){
 	html{
 		background-color: #333533;
