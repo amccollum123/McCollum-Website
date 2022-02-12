@@ -38,14 +38,13 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-a:hover {
-  background: #ffb703;
-}
-
 a:visited {
   background: #023047;
 }
 
+a:hover {
+  background: #ffb703;
+}
 .smallpic{
   margin: 0 auto;
   width: 500px;
