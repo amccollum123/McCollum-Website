@@ -16,12 +16,6 @@ h1 {
 }
 
 
-.smallpic{
-  margin: 0 auto;
-  width: 500px;
-  height: 350px;
-}
-
 @media (prefers-color-scheme: dark){
 	html{
 		background-color: #333533;
