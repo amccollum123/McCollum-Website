@@ -1,3 +1,11 @@
+a:visited {
+  background: #023047;
+}
+
+a:hover {
+  background: #ffb703;
+}
+
 aside{
     width: 30%;
     float: right;
