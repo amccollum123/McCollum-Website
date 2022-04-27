@@ -17,8 +17,12 @@ aside{
 aside h3{
     font-size: 1rem;
   }
+  
+  .hidden{
+    display: none;
+  }
 
-
+  
 @media (prefers-color-scheme: dark){
 	html{
 		background-color: #333533;

@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    	  <title>Contact Form</title>
-		    <meta charset="utf-8" />
-		    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		    <meta name="viewport" content="width=device-width, initial-scale=1" />
-		    <meta name="description" content="This website will contain work created during the completion of 519 Website and Web App Development. The website showcases examples of elementary classroom robotics." />
-		    <meta name="author" content="Alisa Mccollum" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="StyleSheet.css" rel="StyleSheet"/>
-	</head>
+<head>
+  <title>Contact Form - Classroom Robotics</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="This website will contain work created during the completion of 519 Website and Web App Development. The website showcases examples of elementary classroom robotics." />
+        <meta name="author" content="Alisa Mccollum" />
 
-    <body>
-      <nav>
-        <nav class="navabar navbar-expand-lg bg-dark navbar-dark">
-          <div class="container">
-            <a href="index.html" class="navar-brand"><img src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/blue_repicthousebase_1484336386-1.png" alt="home icon" width="30" height="auto"></a>
-            
-            <button class="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="StyleSheet.css" rel="StyleSheet"/>
+</head>
 
-          <div class="collapse navbar-collapse" id="navmenu">
+  <body>
+    <nav>
+      <nav class="navabar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navar-brand"><img src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/blue_repicthousebase_1484336386-1.png" alt="home icon" width="30" height="auto"></a>
+    
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="beebot.html" class="nav-link">Bee-Bot </a>
+                <a href="beebot.html" class="nav-link">Bee-Bot</a>
               </li>
               <li class="nav-item">
                 <a href="dash.html" class="nav-link">Dash</a>
@@ -41,18 +43,23 @@
               </li>
               <li class="nav-item">
                 <a href="sphero.html" class="nav-link">Sphero</a>
-              </li>
+              </li> 
               <li class="nav-item">
                 <a href="popK5.html" class="nav-link">Popular</a>
               </li> 
+              <li class="nav-item">
+                <a href="advice.html" class="nav-link">Advice</a>
+              </li>
               <li class="nav-item">
                 <a href="forms.html" class="nav-link">Contact me</a>
               </li>
             </ul>
           </div>  
-          </div>
-        </nav>
-        
+        </div>
+      </nav>
+    </nav>
+
+       
                 
             <style>
                 .card {
@@ -81,126 +88,123 @@
                     color: #2acc80;
                 }
             </style>
-        
-        
-        <body>
-            <form class="needs-validation" novalidate>
-            <div class="container"> 
-               
+
+    <form class="needs-validation" novalidate>
+    
+    <div class="container"> 
                  
-            <h1>Contact me!</h1>
+        <h1>Contact me!</h1>
             
             <form class="form-horizontal">
-         
                
             <div class="card"> 
                 
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="First name">First name</label>  
-                  <div class="col-md-4">
-                  <input id="Firstname" name="Firstname" type="text" placeholder="Firstname" class="form-control input-md" required="">
-                    <div class="valid-feedback"> Looks good!</div>
-                    <div class="invalid-feedback"> First name is required!</div>
-                  </div> 
-                  <br>
+                    <label class="col-md-4 control-label" for="First name">First name</label>  
+                      <div class="col-md-4">
+                    <input id="Firstname" name="Firstname" type="text" placeholder="Firstname" class="form-control input-md" required="">
+                      <div class="valid-feedback"> Looks good!</div>
+                      <div class="invalid-feedback"> First name is required!</div>
+                    </div> 
+                      <br>
                 </div>
                 
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="Last name">Last name</label>  
-                  <div class="col-md-4">
-                  <input id="Last name" name="Last name" type="text" placeholder="Last name" class="form-control input-md" required="">
-                    <div class="valid-feedback"> Looks good!</div>
-                    <div class="invalid-feedback"> Last name is required!</div>
-                  </div>
-                  <br>
+                    <label class="col-md-4 control-label" for="Last name">Last name</label>  
+                      <div class="col-md-4">
+                    <input id="Last name" name="Last name" type="text" placeholder="Last name" class="form-control input-md" required="">
+                      <div class="valid-feedback"> Looks good!</div>
+                      <div class="invalid-feedback"> Last name is required!</div>
+                    </div>
+                      <br>
                 </div>
         
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="Email">Email address</label>
-                    <div class="col-md-4">
+                      <div class="col-md-4">
                     <input type="email" id="email" name="email" placeholder="Email" class="form-control input-md" required="">
-                    <div class="valid-feedback"> Looks good!</div>
-                    <div class="invalid-feedback"> Type a vaild email!</div>
+                      <div class="valid-feedback"> Looks good!</div>
+                      <div class="invalid-feedback"> Type a vaild email!</div>
                     </div>
-                    <br><br>
+                      <br><br>
                 </div>
-        
-        
+                
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="Robotics"><h5>I want to know more about:</h5></label>
-                  <div class="col-md-4">
-                  <div class="checkbox">
-                    <label for="Robotics-0">
-                      <input type="checkbox" name="Robotics" id="Robotics-0" value="1">
-                      Bee-Bot
-                    </label>
-                    </div>
-                  <div class="checkbox">
-                    <label for="Robotics-1">
-                      <input type="checkbox" name="Robotics" id="Robotics-1" value="2">
-                      Dash
-                    </label>
-                    </div>
-                  <div class="checkbox">
-                    <label for="Robotics-2">
-                      <input type="checkbox" name="Robotics" id="Robotics-2" value="3">
-                      MeeperBot
-                    </label>
-                    </div>
-                  <div class="checkbox">
-                    <label for="Robotics-3">
-                      <input type="checkbox" name="Robotics" id="Robotics-3" value="4">
-                      Sphero
-                    </label>
-                    </div>
-                  <div class="checkbox">
-                    <label for="Robotics-4">
-                      <input type="checkbox" name="Robotics" id="Robotics-4" value="5">
-                      Other
-                    </label>
-                    <br> <br>
-                    </div>
-                  </div>
-                
-                </div>
-                
-        
-                <div class="form-group">
-                  <div class="col-md-4">
-                    <button id="Sumbit" name="Sumbit" class="btn btn-success">Submit</button>
-                  </div>
-                  <label class="col-md-4 control-label" for="Sumbit">Thank you!</label>
-                </div>
-        
-            </div>
-        
-            </form>
-        </div>   
-        
-                  
-        
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-                
-                
+                    <label class="col-md-4 control-label" for="Robotics"><h5>I want to know more about:</h5></label>
+                      <div class="col-md-4">
 
+                    <div class="checkbox">
+                        <label for="Robotics-0">
+                            <input type="checkbox" name="Robotics" id="Robotics-0" value="1">
+                                Bee-Bot
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="Robotics-1">
+                            <input type="checkbox" name="Robotics" id="Robotics-1" value="2">
+                                Dash
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="Robotics-2">
+                            <input type="checkbox" name="Robotics" id="Robotics-2" value="3">
+                                MeeperBot
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="Robotics-3">
+                            <input type="checkbox" name="Robotics" id="Robotics-3" value="4">
+                                Sphero
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="Robotics-4">
+                            <input type="checkbox" name="Robotics" id="Robotics-4" value="5">
+                                Other
+                        </label>
+                    </div>
+                        <br><br>               
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <button id="Sumbit" name="Sumbit" class="btn btn-success">Submit</button>
+                    </div>
+                        <label class="col-md-4 control-label" for="Sumbit">Thank you!</label>
+                    </div>
+            </div>
+            </form>
+
+                <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact me</li>
+                      </ol>
+                </nav>
+    </div>   
+    
         <script> 
             (() => {
-                  
              const forms = document.querySelectorAll('.needs-validation');
-                  
-                    
-                    Array.prototype.slice.call(forms).forEach((form) => {
+                Array.prototype.slice.call(forms).forEach((form) => {
                         form.addEventListener('submit', (event) => {
-                    if (!form.checkValidity()) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                                }
+                          if (!form.checkValidity()) {
+                              event.preventDefault();
+                              event.stopPropagation();
+                              }
                         form.classList.add('was-validated'); 
                             }, false);
-                            });
+                          });
                         })();
-            </script>
+        </script>
 
 
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
+  </body>
 </html>
